@@ -45,6 +45,7 @@ const Hero = () => {
                   whileHover={{ scale: 1.05 }}
                   className="px-6 py-3 bg-gray-500 rounded-4xl font-bold bg-gradient-to-r from-purple-700 to-purple-500 hover:bg-purple-700 transition-colors"
                 >
+                    
                   Contact Me
                 </motion.button>
                 <motion.button

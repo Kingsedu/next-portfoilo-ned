@@ -11,8 +11,8 @@ export default function Home() {
       <LogoAnimation />
       <About />
       <Portfolio />
-      <Stack />
       <KeyMetrics />
+      <Stack />
     </>
   );
 }

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import project1 from "../public/asset/proj5.png";
 import project2 from "../public/asset/proj6.png";
@@ -39,7 +39,7 @@ const Portfolio = () => {
           <h2 className="text-6xl font-bold mb-10">
             Selected <span className="text-purple-400">Project</span>
           </h2>
-          {projects.map((project, idx) => (
+          {projects.map((project) => (
             <div
               key={project.id}
               className="cursor-pointer mb-8 group"

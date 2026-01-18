@@ -4,7 +4,6 @@ import { Progress } from "@/components/ui/progress";
 import project1 from "../public/asset/proj5.png";
 import project2 from "../public/asset/proj6.png";
 import Image from "next/image";
-import { cn } from "../lib/utils";
 const About = () => {
   const skills = [
     "JavaScript",

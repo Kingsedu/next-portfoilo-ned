@@ -86,7 +86,7 @@ const Stack = () => {
     }
   }, [controls, inView]);
   return (
-    <section className="">
+    <section className="" id="stack">
       <div className="max-w-[250px] mx-auto text-center">
         <h2 className="text-7xl text-gray-200 font-bold mb-10">My Stack</h2>
         <div className="grid gap-8" ref={ref}>

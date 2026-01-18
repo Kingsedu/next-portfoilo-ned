@@ -18,7 +18,7 @@ const Hero = () => {
               transition={{ duration: 0.8 }}
               className="relative mb-8 mt-24 border-red-50"
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-purple-500/40 to-transparent rounded-full blur-3xl"></div>
+              <div className="absolute inset-0 bg-linear-to-b from-purple-500/40 to-transparent rounded-full blur-3xl"></div>
               <Image
                 src={profilepic}
                 alt="profile pic"
@@ -45,7 +45,6 @@ const Hero = () => {
                   whileHover={{ scale: 1.05 }}
                   className="px-6 py-3 bg-gray-500 rounded-4xl font-bold bg-gradient-to-r from-purple-700 to-purple-500 hover:bg-purple-700 transition-colors"
                 >
-                    
                   Contact Me
                 </motion.button>
                 <motion.button

@@ -49,7 +49,7 @@ const NavBar = () => {
               <Link
                 onClick={closeNav}
                 href={link.path}
-                className="transform hover:text-white/50 transition-all duration-300 ease-in-out"
+                className="transform hover:text-5xl transition-all duration-300 ease-in-out hover:text-purple-200"
               >
                 {link.title}
               </Link>

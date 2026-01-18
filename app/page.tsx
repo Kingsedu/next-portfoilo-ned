@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import KeyMetrics from "@/components/KeyMetrics";
 import LogoAnimation from "@/components/LogoAnimation";
@@ -15,6 +16,7 @@ export default function Home() {
       <KeyMetrics />
       <Stack />
       <Services />
+      <Contact />
     </>
   );
 }
